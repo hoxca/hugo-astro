@@ -6,7 +6,7 @@ paginate = 5
 
 # temporary values for build
 ignorecache = true
-builddrafts = true
+builddrafts = false
 verbose = true
 
 # Enable comments by entering your Disqus shortname
