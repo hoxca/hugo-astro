@@ -1,10 +1,11 @@
 +++
 date = "2015-11-05T16:20:00+01:00"
-draft = true
+draft = false
 title = "La secte très étrange des astrophotographes"
 banner = "banners/cygnus.png"
-categories = ["Général"]
+categories = ["General"]
 tags = ["Astrophotographie"]
+slug = "la-secte-tres-etrange"
 +++
 
 Introduction
