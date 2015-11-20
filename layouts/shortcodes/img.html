@@ -1,0 +1,5 @@
+<p>
+<a href="{{ index .Params 0 | absURL }}" title="{{ index .Params 1 }}" class="fancybox">
+  <img src="{{ index .Params 0 | absURL }}" alt="{{ index .Params 1 }}"></a>
+<span class="caption">{{ index .Params 1 }}</span>
+</p>
