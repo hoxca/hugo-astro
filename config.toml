@@ -24,7 +24,7 @@ disqusShortname = "astro-atosc"
     copyright  = "HoxCa | Powered by [Hugo](//gohugo.io)."
 
     # Enable Google Analytics by entering your tracking code
-    # google_analytics = ""
+    google_analytics = "UA-70503045-1"
 
     # Format dates with Go's time formating
     date_format = "2006-01-02"
