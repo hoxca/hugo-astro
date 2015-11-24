@@ -49,3 +49,41 @@ Montures et repères
 
 Systèmes de coordonnées astronomiques
 =====================================
+
+<span>
+      <table class="coord">
+        <tr>
+          <td colspan="4" style="text-align: center;"><canvas id="dessin"></canvas></td>
+        </tr>
+        <tr><td colspan="2">Coordonnées azimutales:</td>
+          <td colspan="2" style="text-align: center;" id="infos"></td>
+        </tr>
+        <tr><td colspan="4">Coordonnées équatoriales:</td></tr>
+        <tr>
+            <td id="valeurAlpha" style="width: 8em"></td>
+            <td><canvas id="curseurAlpha" width="180" height="30"></canvas></td>
+            <td id="valeurDelta"></td>
+            <td><canvas id="curseurDelta" width="180" height="30"></canvas></td>
+        </tr>
+        <tr><td colspan="4">Coordonnées géographiques:</td></tr>
+        <tr>
+            <td id="valeurPhi"></td>
+            <td><canvas id="curseurPhi" width="180" height="30"></canvas></td>
+            <td id="valeurL"></td>
+            <td><canvas id="curseurL" width="180" height="30"></canvas></td>
+        </tr>
+        <tr><td colspan="4">Valeurs temporelles:</td></tr>
+        <tr>
+            <td id="valeurHeure"></td>
+            <td><canvas id="curseurHeure" width="180" height="30"></canvas></td>
+            <td id="valeurJour"></td>
+            <td><canvas id="curseurJour" width="180" height="30"></canvas></td>
+        </tr>
+        <tr>
+            <td id="valeurMois"></td>
+            <td><canvas id="curseurMois" width="180" height="30"></canvas></td>
+            <td id="valeurAnnee"></td>
+            <td><canvas id="curseurAnnee" width="180" height="30"></canvas></td>
+        </tr>
+      </table>
+</span>

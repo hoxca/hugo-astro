@@ -9,3 +9,13 @@
   -webkit-columns: 3 100px;
   -moz-columns: 3 100px;
 }
+
+.coord tbody {
+  border-collapse: collapse;
+  line-height: 0px;
+}
+
+.coord td {
+  border-bottom: 0px;
+  border-top: 0px;
+}
