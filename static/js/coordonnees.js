@@ -413,7 +413,7 @@ function majCroquis() {
 
     // avec une image offscreen, ce serait le bon moment pour lancer la mise à jour...
 
-    var infos = 'H=' + affichageAngleDMS(H, false, true) + ' \u00a0 h=' + affichageAngleDMS(Math.PI/2 - MsphHoz.get(1), false, false);
+    var infos = 'H=' + affichageAngleHMS(H, false, true) + ' \u00a0 h=' + affichageAngleDMS(Math.PI/2 - MsphHoz.get(1), false, false);
     if (MsphHoz.get(1) > 1E-5 && MsphHoz.get(1) < Math.PI - 1E-5) {
         var azimut = Math.PI/2 - A.get(2);
         if (azimut < 0)
