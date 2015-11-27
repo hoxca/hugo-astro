@@ -18,4 +18,10 @@
 .coord td {
   border-bottom: 0px;
   border-top: 0px;
+  height: 0.2em;
 }
+
+img[alt="Demi Sphere Celeste"] { width: 350px; }
+img[alt="Sphere Celeste"] { width: 400px; }
+img[alt="Plan Equatorial"] { width: 400px; }
+img[alt="Plan Ecliptique"] { width: 400px; }
