@@ -21,20 +21,23 @@
 </script>
 <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
+  config: ["MMLorHTML.js"],
+  jax: ["input/TeX","input/MathML","output/HTML-CSS","output/NativeMML", "output/CommonHTML"],
+  extensions: ["tex2jax.js","mml2jax.js","MathMenu.js","MathZoom.js", "CHTML-preview.js"],
+  TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] },
   tex2jax: {
-    inlineMath: [['$','$'], ['\\(','\\)']],
-    displayMath: [['$$','$$'], ['\[','\]']],
+    inlineMath: [['$','$']],
+    displayMath: [['$$','$$']],
     processEscapes: true,
     processEnvironments: true,
     skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
-    TeX: { equationNumbers: { autoNumber: "AMS" },
-         extensions: ["AMSmath.js", "AMSsymbols.js"] }
   }
-});
+ });
 </script>
 <script type="text/x-mathjax-config">
   MathJax.Hub.Queue(function() {
-    // Fix <code> tags after MathJax finishes running. This is a
+    // Fix <code> tags after MathJax finishes running.This is a
     // hack to overcome a shortcoming of Markdown. Discussion at
     // https://github.com/mojombo/jekyll/issues/199
     var all = MathJax.Hub.getAllJax(), i;
