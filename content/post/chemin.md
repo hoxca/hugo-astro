@@ -7,8 +7,8 @@ categories = ["General"]
 slug = "la-route"
 +++
 
-Chemin
-======
+# Chemin
+
 
 En 1997, lors d'une traversée de la manche en voilier, je remarque la comete Hal Bopp qui m'accompagnera toute la nuit. Le spectacle visible à l'oeil nu est grandiose dans ce ciel maritime épargné par les pollutions lumineuses du littoral.
 

@@ -8,8 +8,8 @@ tags = ["Astrophotographie"]
 slug = "la-secte-tres-etrange"
 +++
 
-Introduction
-============
+# Introduction
+
 
 L'activité consistant à prendre en photo les astres et autres formations du ciel nocturne est nommée `Astrophotographie`. C'est une discipline passionnante et complexe car elle fait appel à des connaissances issues de domaines très variés.
 
@@ -27,8 +27,7 @@ Prendre une bonne photo d'une formation celeste, c'est donc composer avec le nom
 
 La quête d'une photographie d'astronomie est donc un long chemin jonché d'embuches qu'il faut déjouer intelligement. Ce chemin forge l'expérience de l'astrophotographe; l'objet de ces quelques pages et articles est de synthétiser la multitude d'informations accumulées au travers de lectures et échanges et d'en extraire quelques aspects pratiques.
 
-L'étude et le terrain
-=====================
+# L'étude et le terrain
 
 Ce qu'il faut sur le terrain, c'est roder une batterie de procédures qui seront les étapes nécéssaires avant de passer à l'acquisition des images. Cela se décompose en un lot de sujets à étudier préalablement. Certaines de ces procédures sont communes aux observateurs et aux astrophotographes. On peut citer:
 
