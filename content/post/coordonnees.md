@@ -13,7 +13,7 @@ slug = "coordonnees"
 
 # Le repérage au sol
 
-Même si, la généralisation de l'usage des GPS à familiarisé le grand public avec les systèmes de coordonnées terrestres, il est toujours bon d'en rappeler quelques fondamentaux. On parle ici de coordonnées géographiques, et tout lieu est identifié dans un système de coordonnées géodésiques ayant trois composantes:
+Même si, la généralisation de l'usage des GPS a familiarisé le grand public avec les systèmes de coordonnées terrestres, il est toujours bon d'en rappeler quelques fondamentaux. On parle ici de coordonnées géographiques, et tout lieu est identifié dans un système de coordonnées géodésiques ayant trois composantes:
 
 * Latitude (angle Nord / Sud)
 * Longitude (angle Ouest / Est)
@@ -22,7 +22,7 @@ Même si, la généralisation de l'usage des GPS à familiarisé le grand public
 Le globe est donc divisé par des lignes géodésiques:
 
 * Les lignes formées à latitudes égales sont dites parallèles</li>
-* Les lignes de longitudes équivalentes sont nommées meridiens</li>
+* Les lignes de longitudes équivalentes sont nommées méridiens</li>
 
 
 ![Le globe](https://upload.wikimedia.org/wikipedia/commons/a/ab/WorldMapLongLat-eq-circles-tropics-non.png)
@@ -31,14 +31,14 @@ Les origines pour chacune d'elles sont respectivement:
 
 * L'équateur $0°$ qui divise le globe en 2 hemispheres Nord et Sud. Les latitudes ont des valeurs en dégrés comprises entre $\measuredangle \pm 90°$.
 * Le premier méridien 0° passe par l'observatoire royal de Greenwich et coupe également la France. Les longitudes sont étendues sur les $360°$ du globle et comprises entre $\measuredangle \pm 180°$ autour du meridien de Greenwich
-* L'altitude est données en mètres à partir du niveau moyen des mers.
+* L'altitude est donnée en mètres à partir du niveau moyen des mers.
 
 Les latitudes et longitudes sont usuellement exprimées dégrés puis minutes et secondes en base sexagésimale.
 
 Pour exemple les coordonnées de Paris Notre Dame sont:
 $$
-latitudes: 48°51'23,81"\ N\\\\
-longitudes: 2°21'7,998"\ E
+latitude: 48°51'23,81"\ N\\\\
+longitude: 2°21'7,998"\ E
 $$
 
 On note que le globle est découpé par quelques parallèles remarquables:
@@ -55,11 +55,11 @@ On note que le globle est découpé par quelques parallèles remarquables:
 
 ### Coordonnées azimutales
 
-Lorsque l'on regarde le ciel, celui-ci ce présente à nous comme une demi sphère au dessus de notre horizon local. Dans ce repère, l'origine est l'observateur et son horizon est désigné par le plan formé par les quatre points cardinaux, la perpendiculaire de ce plan passant par l'origine pointe le zenith du lieu dans le sens opposé à la pesanteur. On note que ce système de coordonnées locales correspond au positionnement des axes d'une monture alt-azimutale.
+Lorsque l'on regarde le ciel, celui-ci se présente à nous comme une demi sphère au dessus de notre horizon local. Dans ce repère, l'origine est l'observateur et son horizon est désigné par le plan formé par les quatre points cardinaux, la perpendiculaire de ce plan passant par l'origine pointe le zenith du lieu dans le sens opposé à la pesanteur. On note que ce système de coordonnées locales correspond au positionnement des axes d'une monture alt-azimutale.
 
 ![Demi Sphere Celeste](../../../../images/coordonnees/demisphere.png)
 
-Dans ce système de coordonnées l'étoile située au point A est repèrée par son azimut `a` compté en degrés $(0°\rightarrow 360°)$ à partir du point cardinal Sud dans le sens rétrograde $\circlearrowright$ et sa hauteur `h` comprise entre $\measuredangle \pm 90°$.
+Dans ce système de coordonnées l'étoile située au point A est repèrée par son azimut `a`, compté en degrés $(0°\rightarrow 360°)$ à partir du point cardinal Sud dans le [sens rétrograde](https://fr.wikipedia.org/wiki/Sens_de_rotation) $\circlearrowright$ et sa hauteur `h`, comprise entre $\measuredangle \pm 90°$.
 
 ### Coordonnées horizontales
 
@@ -135,17 +135,43 @@ Un fois le point vernal défini on introduit le système de coordonnées équato
 
 Le gros avantage du système équatorial est d'avoir des composantes équatoriales $\alpha$ et $\delta$ invariantes dans le temps et quelque soit la position de l'observateur sur le globe. Il s'agit donc du système majoritairement utilisé par les astronomes amateurs.
 
-Dans ce système, on indique la relation entre le temps sidéral et l'angle horaire qui permetra de déduire les relations de transformations pour les changements coordonnées.
+### Changement de coordonnées
+
+Dans ce système équatorial, on indique la relation entre le temps sidéral, l'angle horaire et ascension droite qui permetra de déduire les relations de transformations pour les changements coordonnées:
 
 $$H = T - \alpha$$
 
+coordonnées equatoriales $\rightarrow$ horaires $\rightarrow$ horizontales
+
+$$
+\begin{alignat}{2}
+\begin{cases}
+sin (h) &= sin (\varphi) \cdot sin (\delta) + cos(\varphi) \cdot cos (\delta) \cdot cos (H)\\\\
+cos (h) \cdot sin (\alpha) &= cos δ \cdot sin(H) \\\\
+cos (h) \cdot cos (\alpha) &= - cos(\varphi) \cdot sin(\delta) + sin(\varphi) \cdot cos(\delta) \cdot cos (H)
+\end{cases}
+\end{alignat}
+$$
+
+coordonnées horizontales $\rightarrow$ horaires $\rightarrow$ equatoriales
+
+$$
+\begin{alignat}{2}
+\begin{cases}
+sin(\delta) &= sin(\varphi) \cdot sin(h) - cos(\varphi) \cdot cos(h) \cdot cos(\alpha)\\\\
+cos(\delta) \cdot sin (H) &= cos(h) \cdot sin(\alpha)\\\\
+cos(\delta) \cdot cos (H) &= cos(\varphi) \cdot sin(h) + sin(\varphi) \cdot cos(h) \cdot cos(\alpha)
+\end{cases}
+\end{alignat}
+$$
+
 ### Simulateur
 
-En utilisant le simulateur ci-dessous, il est possible de constater les limites de systèmes certains systèmes de coordonnées ou les avantages du système de coordonnées équatorial.
+En utilisant le simulateur ci-dessous, il est possible de constater les limites des systèmes de coordonnées locales et d'exposer clairement les invariants du système de coordonnées équatoriales.
 
 Plus spécifiquement:
 
-* On remarque qu'en faisant varier la position de l'observateur, valeurs de latitude $\varphi$ ou de longitude $L$, la position de l'étoile est variable dans le système de coordonnées horizontal.
+* On remarque qu'en faisant varier la position de l'observateur, valeurs de latitude $\varphi$ ou de longitude $L$, la position de l'étoile est variable dans le système de coordonnées azimutales.
 * On remarque qu'en faisant varier le temps ou la position, les coordonnées équatoriales $\alpha$ et $\delta$ de l'étoile sont invariantes.
 
 <span>
@@ -192,7 +218,7 @@ Plus spécifiquement:
 
 ### Coordonnées écliptiques
 
-à completer
+à suivre...
 ___
 <div>
 <small>Crédits:</small>
