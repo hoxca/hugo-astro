@@ -229,8 +229,11 @@ Dans ce système de coordonnées le plan de référence est l'écliptique et on 
 
 ![Plan Ecliptique](../../../../images/coordonnees/ecliptique.png)
 
-Ici l'ascension droite est remplacée sur l'ecliptique par longitude celeste $\lambda$ dont l'origine est également le point vernal $\gamma$.
-La déclinaison est remplacée par la latitude celeste et notée $\beta$.
+Ici l'ascension droite $\alpha$, est remplacée sur l'ecliptique par longitude celeste $\lambda$; dont l'origine est également le point vernal $\gamma$.
+La déclinaison $\delta$, est remplacée par la latitude celeste et est notée $\beta$.
+
+Pour observer dynamiquement l'ensemble des planètes en mouvement dans le plan ecliptique, on peut aujourd'hui profiter d'un [simulateur orbital](https://mgvez.github.io/jsorrery/) écrit en javascript et basé sur `three.js`.
+
 ___
 <div>
 <small>Crédits:</small>
