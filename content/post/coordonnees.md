@@ -119,7 +119,7 @@ $$
 
 La course apparente du soleil observée depuis la terre dessine le cercle ecliptique sur la sphère celeste. Le plan écliptique corresponds au plan du système solaire.
 
-![Plan Ecliptique](../../../../images/coordonnees/ecliptique.png)
+![Plan Ecliptique](../../../../images/coordonnees/vernal.png)
 
 Les plans ecliptique et équatorial rentre en intersection et forme la ligne des noeuds. L'intersection des cercles ecliptique et equatorial dessine deux points $\gamma$ et $\gamma\prime$ correspondant respectivement aux equinoxes de printemps et automne. $\gamma$ est dit point vernal. Aux equinoxes, la durée du jour et de la nuit sont égales.
 
@@ -218,7 +218,19 @@ Plus spécifiquement:
 
 ### Coordonnées écliptiques
 
-à suivre...
+Le système de coordonnées écliptique est principalement utilisé pour le repérage d'objet dans le système solaire;
+car la majorité de ces objets gravitent dans le plan écliptique.
+
+![Ecliptique](https://upload.wikimedia.org/wikipedia/commons/8/86/Obliquite_plan_ecliptique.png)
+
+L'angle $\epsilon$ entre les plans formés par l'équateur et l'ecliptique est dit obliquité.
+
+Dans ce système de coordonnées le plan de référence est l'écliptique et on repère l'étoile avec un système équivalent aux coordonnées équatoriales.
+
+![Plan Ecliptique](../../../../images/coordonnees/ecliptique.png)
+
+Ici l'ascension droite est remplacée sur l'ecliptique par longitude celeste $\lambda$ dont l'origine est également le point vernal $\gamma$.
+La déclinaison est remplacée par la latitude celeste et notée $\beta$.
 ___
 <div>
 <small>Crédits:</small>
