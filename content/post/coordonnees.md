@@ -234,6 +234,34 @@ La déclinaison $\delta$, est remplacée par la latitude celeste et est notée $
 
 Pour observer dynamiquement l'ensemble des planètes en mouvement dans le plan ecliptique, on peut aujourd'hui profiter d'un [simulateur orbital](https://mgvez.github.io/jsorrery/) écrit en javascript et basé sur `three.js`.
 
+### Changement coordonnées
+
+Toujours avec les relations fondamentales de la trigonométrie sphérique, on démontre les équations permettant le passage des coordonnées équatoriales aux coordonnées écliptique.
+
+
+coordonnées equatoriales $\rightarrow$ écliptiques :
+
+$$
+\begin{alignat}{2}
+\begin{cases}
+sin(\beta) &=  cos(\epsilon) \cdot  sin(\delta)\ – sin(\epsilon) \cdot  cos(\delta) \cdot  sin(\alpha)\\\\
+cos(\beta) \cdot sin(\lambda)  &= sin(\epsilon) \cdot  sin(\delta) + cos(\epsilon) \cdot  cos(\delta) \cdot sin(\alpha)\\\\
+cos(\beta) \cdot cos(\lambda)  &= cos(\alpha) \cdot  cos(\delta)
+\end{cases}
+\end{alignat}
+$$
+
+ou, inversement: 
+$$
+\begin{alignat}{2}
+\begin{cases}
+sin (\delta) &=  cos(\epsilon) \cdot sin(\beta) + sin(\epsilon) \cdot cos(\beta) \cdot sin(\lambda)\\\\
+cos (\delta) \cdot sin(\alpha) &= cos(\epsilon) \cdot cos(\beta) \cdot sin(\lambda)\ – sin (\epsilon) \cdot sin(\beta)\\\\
+cos (\delta) \cdot cos(\alpha) &= cos(\beta) \cdot cos(\lambda)
+\end{cases}
+\end{alignat}
+$$
+
 ___
 <div>
 <small>Crédits:</small>
