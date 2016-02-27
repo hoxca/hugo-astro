@@ -32,7 +32,7 @@ coté n'entache la réputation de la firme américaine; cela sent le solide. Vu 
 
 L'inspection visuelle des optiques ne montre aucun signe alarmant et la collimation de la lunette n'a visiblement jamais été reprise puisque le point de colle époxy réalisé en usine par Televue est présent sur le barillet de la lentille frontale. La collimation de la lunette ne s'effectue que par le blocage du barillet au moyen de 3 vis également remplies d'epoxy en usine (pas de système push/pull). Televue n'a donc pas vraiment souhaité que la collimation de la lunette puisse être ajustée par l'utilisateur.
 
-On notera que la Televue NP101is est très bien équilibré, il n'y a donc pas besoin d'une platine de décentrage. Comme je monte en parallèle sur l'instrument une petite lunette de guidage, j'ai opté pour les anneaux WO et la platine vixen. Une fois montée sur la monture, la lunette est très facile a équilibrer et à un très bon comportement.
+On notera que la Televue NP101is est très bien équilibrée, il n'y a donc pas besoin d'une platine de décentrage. Comme je monte en parallèle sur l'instrument une petite lunette de guidage, j'ai opté pour les anneaux WO et la platine vixen. Une fois montée sur la monture, la lunette est très facile a équilibrer et à un très bon comportement.
 
 En revanche, cela se gâte un peu du coté porte-occulaire car celui ci à visiblement subit un traumatisme.
 Comme le pinion ne tourne plus très rond, il faut libérer les visses centrales pour éviter la mise sous contrainte de la cremaillère. Par voie de conséquence, le démultiplicateur présente un jeu important ce qui est très dommageable sur une lunette à très grande ouverture car la mise au point doit être d'autant plus précise.
@@ -50,7 +50,7 @@ Avec la lunette, il est fourni un ensemble de bagues vissantes et un correcteur 
 
 # La mise en lumière
 
-J'ai profiter d'une froide nuit de pleine lune pour tester cette lunette en condition en proche banlieu parisienne. Inutile d'aller chasser un ciel noir pour faire quelques tests optiques. La mise ne température de l'instrument s'est effectuée très rapidement.
+J'ai profité d'une froide nuit de pleine lune pour tester cette lunette en condition en proche banlieu parisienne. Inutile d'aller chasser un ciel noir pour faire quelques tests optiques. La mise ne température de l'instrument s'est effectuée très rapidement.
 
 ## Protocole de test
 
@@ -76,7 +76,7 @@ Les trains 2 optiques utilisés sont donc les suivants:
 
 ## Observations
 
-Une fois l'adapateur 2 pouces monté dans le porte-oculaire, j'ai insérer une diagonnale WO de 2 pouces et un oculaire Vixen LVW13.
+Une fois l'adapateur 2 pouces monté dans le porte-oculaire, j'ai inséré une diagonnale WO de 2 pouces et un oculaire Vixen LVW13.
 
 Avec ce système en place, j'ai pointé un système planétaire et observé une image bien contrastée de jupiter et ses satellites malgrès une lune très présente et toute proche ce soir la.
 Je constate par la même occasion que le chromatisme est très bien maitrisé sur cette lunette et je n'observe aucune dérive dans la colorimétrie.
@@ -87,7 +87,7 @@ Visuellement la lunette est donc à la mesure des attentes que l'on peut avoir d
 
 ## Dépouillement des images
 
-Je destine cette lunette à fonction d'astrographe. L'exigence sur la qualité optique de l'instrument est donc plus importante. J'ai donc pris les photos escomptées par le protocole de test décrit en amont. Les images brute RAW sont ensuite chargées dans le logiciel PixInsight ou j'y applique un traitement minimaliste.
+Je destine cette lunette à la fonction d'astrographe. L'exigence sur la qualité optique de l'instrument est donc plus importante qu'en visuel. J'ai donc pris les photos escomptées par le protocole de test décrit en amont. Les images brute RAW sont ensuite chargées dans le logiciel PixInsight ou j'y applique un traitement minimaliste.
 
   * Chargement et dé-bayerisation (VNG),
   * Dé-linéarisation (RGB),
@@ -102,7 +102,7 @@ Je destine cette lunette à fonction d'astrographe. L'exigence sur la qualité o
 
 ![Mosaïque résultante](../../../../images/ryan/WFLT_LIGHT_30s_RGB_VNG_mosaic.png)
 
-On remarque sur cette photo que les étoiles sont étirées sur le coin en haut à gauche, lors que c'est maitrisé pour le coin inférieur droit. Il y a donc manifestement un décalage du plan focal (Tilt) qui tire à gauche.
+On remarque sur cette photo que les étoiles sont étirées sur le coin en haut à gauche, alors que c'est maitrisé pour le coin inférieur droit. Il y a donc manifestement un décalage du plan focal (Tilt) qui tire à gauche.
 
 #### Résultats avec correcteur
 
@@ -120,8 +120,7 @@ C'est un peu plus maîtrisé avec le correcteur mais il existe toujours un déca
 
 ![Mosaïque résultante](../../../../images/ryan/FF_LIGHT_30s_RGB_VNG_mosaic.png)
 
-Au full frame c'est à peu pret équivalent a ce que nous avons sur les photos précédente car les pixels du
-Canon 6D sont plus gros ce qui limite un peu les dégats.
+Au full frame c'est à peu pret équivalent à ce que nous avons sur les photos précédentes car les pixels du Canon 6D sont plus gros; ce qui limite un peu les dégats.
 
 Comme j'ai constaté, le tilt sur le terrain, je me suis pris au jeu de faire la mise au point avec le Canon 6D sur Capella positionnée en bas à droite du champ. Le résultat de la mosaïque sur une pause de 15 secondes est ici sans appel.
 
@@ -139,11 +138,11 @@ Enfin pour terminer cette series de tests, j'ai compilés les résultats dans CC
 
 # Conclusion hâtive
 
-La lunette NP101is est très bien manufacturée et le contrôle du chromatisme est très bon. Cependant l'objet testé présente un signe de traumatisme évident sur la partie mécanique. Les résultats ne sont pas très constants pour ce qui concerne le tilt. Le doute s'est donc installé dans mon esprit car je ne suis pas certain:
+La lunette NP101is est très bien manufacturée et le contrôle du chromatisme est très bon. Cependant l'objet testé présente un signe de traumatisme évident sur la partie mécanique. Les résultats ne sont pas très constants pour ce qui concerne le tilt. Celui-ci semble bouger avec la mise au point. Le doute s'est donc installé dans mon esprit car je ne suis pas certain:
 
 1. que le changement du pinion règle définitivement le jeu mécanique constaté
 2. que le pénible réglage du tilt via les vis push/pull soit réellement efficace.
 
   Le prix de ces quadruplets n'étant tout de même pas négligeables, j'imagine qu'ils doivent être plus performants que ce que je constate ici.
 
-Certe le piqué et la tenue du chromastimeest sont bien meilleur que ce que j'ai acuellement avec ma lunette chinoise. Cependant pour ce qui concerne l'alignement du capteur sur l'axe optique, les résultats produit par la 80ED sont bien plus réguliers et très inférieurs dans leurs dérives.
+Certe le piqué et la tenue du chromastime sont bien meilleurs que ce que j'ai acuellement avec ma lunette chinoise. Cependant pour ce qui concerne l'alignement du capteur sur l'axe optique, les résultats produit par la 80ED sont bien plus réguliers et très inférieurs dans leurs dérives.
