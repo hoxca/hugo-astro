@@ -1,5 +1,5 @@
 +++
-date = "2015-12-05T13:30:00+01:00"
+date = "2016-02-25T13:30:00+01:00"
 draft = false
 title = "Il faut sauver le soldat Ryan"
 banner = "banners/hardware.png"
@@ -21,7 +21,7 @@ On notera que depuis 2001 la serie NP101 à fait l'objet d'au moins 2 evolutions
 
   * 2001: Introduction de la NP101, porte-oculaire 2 pouces
   * 2005: Système IS et porte-oculaire de 2,4 pouces avec une démultiplication x10
-  * 2011: Le pinion du porte-oculaire est désormais produit par starlight instrument.
+  * 2011: Le pignon du porte-oculaire est désormais produit par starlight instrument.
 
 ![Focuser NP101-IS 2011](../../../../images/ryan/np2011.png)
 
@@ -35,13 +35,13 @@ L'inspection visuelle des optiques ne montre aucun signe alarmant et la collimat
 On notera que la Televue NP101is est très bien équilibrée, il n'y a donc pas besoin d'une platine de décentrage. Comme je monte en parallèle sur l'instrument une petite lunette de guidage, j'ai opté pour les anneaux WO et la platine vixen. Une fois montée sur la monture, la lunette est très facile a équilibrer et à un très bon comportement.
 
 En revanche, cela se gâte un peu du coté porte-occulaire car celui ci à visiblement subit un traumatisme.
-Comme le pinion ne tourne plus très rond, il faut libérer les visses centrales pour éviter la mise sous contrainte de la cremaillère. Par voie de conséquence, le démultiplicateur présente un jeu important ce qui est très dommageable sur une lunette à très grande ouverture car la mise au point doit être d'autant plus précise.
+Comme le pignon ne tourne plus très rond, il faut libérer les vis centrales pour éviter la mise sous contrainte de la cremaillère. Par voie de conséquence, le démultiplicateur présente un jeu important ce qui est très dommageable sur une lunette à très grande ouverture car la mise au point doit être d'autant plus précise.
 
 {{< youtube bZ1eqSqa0gg >}}
 
-Cependant, il ne faut pas perdre espoir de sauver cette lunette, puisqu'on trouve des systèmes micro-pinions dit retrofit chez Starlight Instrument pour la NP101is.
+Cependant, il ne faut pas perdre espoir de sauver cette lunette, puisqu'on trouve des systèmes micro-pignons dit retrofit chez Starlight Instrument pour la NP101is.
 
-![Micro-Pinion Starlight](../../../../images/ryan/Pin-24FT.png)
+![Micro-Pignon Starlight](../../../../images/ryan/Pin-24FT.png)
 
 Enfin, la valise fournie par Televue à cette époque est la même que celle prévue pour la NP127. Elle est donc
 largement plus longue que l'instrument concerné. Aujourd'hui la NP101is est fournie avec une valise qui lui ait spécifique.
@@ -140,7 +140,7 @@ Enfin pour terminer cette series de tests, j'ai compilés les résultats dans CC
 
 La lunette NP101is est très bien manufacturée et le contrôle du chromatisme est très bon. Cependant l'objet testé présente un signe de traumatisme évident sur la partie mécanique. Les résultats ne sont pas très constants pour ce qui concerne le tilt. Celui-ci semble bouger avec la mise au point. Le doute s'est donc installé dans mon esprit car je ne suis pas certain:
 
-1. que le changement du pinion règle définitivement le jeu mécanique constaté
+1. que le changement du pignon règle définitivement le jeu mécanique constaté
 2. que le pénible réglage du tilt via les vis push/pull soit réellement efficace.
 
   Le prix de ces quadruplets n'étant tout de même pas négligeables, j'imagine qu'ils doivent être plus performants que ce que je constate ici.
