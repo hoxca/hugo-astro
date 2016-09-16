@@ -37,7 +37,7 @@ Les latitudes et longitudes sont usuellement exprimées dégrés puis minutes et
 
 Pour exemple les coordonnées de Paris Notre Dame sont:
 $$
-latitude: 48°51'23,81"\ N\\\\
+latitude: 48°51'23,81"\ N\\\\ \\
 longitude: 2°21'7,998"\ E
 $$
 
@@ -67,8 +67,8 @@ Par extension, on introduit le système de coordonnées horizontale basée sur l
 
 ![Sphere Celeste](../../../../images/coordonnees/horizontal.png)
 
-Ce système de coordonnées est certainement le plus évident mais il possède quelques défauts majeurs.    
-En premier lieu, comme l'axe $Oz$ qui indique la verticale du repère passe par le zenith local, on devine très vite qu'une étoile aura une hauteur variable en fonction du temps puisque l'axe de rotation terrestre est $OP$. On a indiqué sur le schéma ci-dessus la course apparente d'une étoile pendant la nuit. Elle se reprèsente par un mouvement circulaire dans un plan perpendiculaire à l'axe de rotation terrestre dont la direction est indiqué par le pôle P. Ici, $\varphi$ pour Paris est approximativement de $49°$.   
+Ce système de coordonnées est certainement le plus évident mais il possède quelques défauts majeurs.
+En premier lieu, comme l'axe $Oz$ qui indique la verticale du repère passe par le zenith local, on devine très vite qu'une étoile aura une hauteur variable en fonction du temps puisque l'axe de rotation terrestre est $OP$. On a indiqué sur le schéma ci-dessus la course apparente d'une étoile pendant la nuit. Elle se reprèsente par un mouvement circulaire dans un plan perpendiculaire à l'axe de rotation terrestre dont la direction est indiqué par le pôle P. Ici, $\varphi$ pour Paris est approximativement de $49°$.
 D'autre part, le zenith est local et les coordonnées de l'étoile seront variables en fonction de notre position sur le globe terrestre.
 
 En résumé:
@@ -76,8 +76,8 @@ En résumé:
 
 ### Coordonnées horaires
 
-En choisissant l'équateur celeste comme plan fondamental, on bascule le repère de coordonnées en fonction de la latitude du lieu. L'axe $Oz$ du repère ne pointe alors plus vers le zenith Z mais vers le pôle celeste P en tout lieu du globe. C'est ce qui est pratiqué pour la mise en place des montures équatoriales.    
-Dans le système de coordonnées horaires, on utilise comme origine du cercle horaire le point M situé à l'intersection du plan équatorial et du méridien celeste qui coupe le monde en deux dans la direction Nord Sud en passant par le zenith.  
+En choisissant l'équateur celeste comme plan fondamental, on bascule le repère de coordonnées en fonction de la latitude du lieu. L'axe $Oz$ du repère ne pointe alors plus vers le zenith Z mais vers le pôle celeste P en tout lieu du globe. C'est ce qui est pratiqué pour la mise en place des montures équatoriales.
+Dans le système de coordonnées horaires, on utilise comme origine du cercle horaire le point M situé à l'intersection du plan équatorial et du méridien celeste qui coupe le monde en deux dans la direction Nord Sud en passant par le zenith.
 
 ![Plan Equatorial](../../../../images/coordonnees/horaire.png)
 
@@ -88,15 +88,15 @@ Sur un interval de temps court (une nuit), on peux considérer que l'angle horai
 
 ### Changement de coordonnées locales
 
-Les transformations utilisées pour les changements de repères sont basées sur les relations remarquables dans le triangle sphérique et en appliquant les formules de trigonométrie sphérique;  
+Les transformations utilisées pour les changements de repères sont basées sur les relations remarquables dans le triangle sphérique et en appliquant les formules de trigonométrie sphérique;
 on démontre:
 
 horizontales $\rightarrow$ horaires:
 $$
 \begin{alignat}{2}
 \begin{cases}
-sin (\delta) &= sin (\varphi) \cdot sin (h)\ – cos (\varphi) \cdot cos (h) \cdot cos (a)\\\\
-cos (\delta) \cdot cos (H) &= cos (\varphi) \cdot sin (h) + sin (\varphi) \cdot cos (h) \cdot cos(a)\\\\
+sin (\delta) &= sin (\varphi) \cdot sin (h)\ – cos (\varphi) \cdot cos (h) \cdot cos (a)\\\\ \\
+cos (\delta) \cdot cos (H) &= cos (\varphi) \cdot sin (h) + sin (\varphi) \cdot cos (h) \cdot cos(a)\\\\ \\
 cos (\delta) \cdot sin (H) &= cos (h) \cdot sin (a)
 \end{cases}
 \end{alignat}
@@ -106,8 +106,8 @@ horaires $\rightarrow$ horizontales:
 $$
 \begin{alignat}{1}
 \begin{cases}
-sin (h) &= sin (\varphi) \cdot sin(\delta) + cos(\varphi) \cdot cos(\delta) \cdot cos(H)\\\\
-cos (h) \cdot cos (a) &= - cos(\varphi) \cdot sin(\delta) + sin (\varphi) \cdot cos(\delta) \cdot cos(H)\\\\
+sin (h) &= sin (\varphi) \cdot sin(\delta) + cos(\varphi) \cdot cos(\delta) \cdot cos(H)\\\\ \\
+cos (h) \cdot cos (a) &= - cos(\varphi) \cdot sin(\delta) + sin (\varphi) \cdot cos(\delta) \cdot cos(H)\\\\ \\
 cos (h) \cdot sin (a) &= cos(\delta) \cdot sin(H)
 \end{cases}
 \end{alignat}
@@ -125,7 +125,7 @@ Les plans ecliptique et équatorial rentre en intersection et forme la ligne des
 
 On défini le temp sidéral $T$ comme l'angle horaire du point vernal $\gamma$. Le jour sidéral, défini comme l'intervale entre deux passage du point vernal au méridien du lieu est en première approximation de $23h\ 56m\ 4s$.
 
-Il existe un petite différence de $8,4ms$ entre le jour sidéral et le jour stéllaire qui correspond au passage d'une étoile au même point de la sphere celeste. Cette différence s'explique par différents phenomènes perturbateurs dont le principal est la précession des equinoxes. Nous détaillerons ces éléments dans un prochain article.  
+Il existe un petite différence de $8,4ms$ entre le jour sidéral et le jour stéllaire qui correspond au passage d'une étoile au même point de la sphere celeste. Cette différence s'explique par différents phenomènes perturbateurs dont le principal est la précession des equinoxes. Nous détaillerons ces éléments dans un prochain article.
 
 ### Coordonnées équatoriales
 
@@ -146,8 +146,8 @@ coordonnées equatoriales $\rightarrow$ horaires $\rightarrow$ horizontales
 $$
 \begin{alignat}{2}
 \begin{cases}
-sin (h) &= sin (\varphi) \cdot sin (\delta) + cos(\varphi) \cdot cos (\delta) \cdot cos (H)\\\\
-cos (h) \cdot sin (\alpha) &= cos δ \cdot sin(H) \\\\
+sin (h) &= sin (\varphi) \cdot sin (\delta) + cos(\varphi) \cdot cos (\delta) \cdot cos (H)\\\\ \\
+cos (h) \cdot sin (\alpha) &= cos δ \cdot sin(H) \\\\ \\
 cos (h) \cdot cos (\alpha) &= - cos(\varphi) \cdot sin(\delta) + sin(\varphi) \cdot cos(\delta) \cdot cos (H)
 \end{cases}
 \end{alignat}
@@ -158,8 +158,8 @@ coordonnées horizontales $\rightarrow$ horaires $\rightarrow$ equatoriales
 $$
 \begin{alignat}{2}
 \begin{cases}
-sin(\delta) &= sin(\varphi) \cdot sin(h) - cos(\varphi) \cdot cos(h) \cdot cos(\alpha)\\\\
-cos(\delta) \cdot sin (H) &= cos(h) \cdot sin(\alpha)\\\\
+sin(\delta) &= sin(\varphi) \cdot sin(h) - cos(\varphi) \cdot cos(h) \cdot cos(\alpha)\\\\ \\
+cos(\delta) \cdot sin (H) &= cos(h) \cdot sin(\alpha)\\\\ \\
 cos(\delta) \cdot cos (H) &= cos(\varphi) \cdot sin(h) + sin(\varphi) \cdot cos(h) \cdot cos(\alpha)
 \end{cases}
 \end{alignat}
@@ -244,19 +244,19 @@ coordonnées equatoriales $\rightarrow$ écliptiques :
 $$
 \begin{alignat}{2}
 \begin{cases}
-sin(\beta) &=  cos(\epsilon) \cdot  sin(\delta)\ – sin(\epsilon) \cdot  cos(\delta) \cdot  sin(\alpha)\\\\
-cos(\beta) \cdot sin(\lambda)  &= sin(\epsilon) \cdot  sin(\delta) + cos(\epsilon) \cdot  cos(\delta) \cdot sin(\alpha)\\\\
+sin(\beta) &=  cos(\epsilon) \cdot  sin(\delta)\ – sin(\epsilon) \cdot  cos(\delta) \cdot  sin(\alpha)\\\\ \\
+cos(\beta) \cdot sin(\lambda)  &= sin(\epsilon) \cdot  sin(\delta) + cos(\epsilon) \cdot  cos(\delta) \cdot sin(\alpha)\\\\ \\
 cos(\beta) \cdot cos(\lambda)  &= cos(\alpha) \cdot  cos(\delta)
 \end{cases}
 \end{alignat}
 $$
 
-ou, inversement: 
+ou, inversement:
 $$
 \begin{alignat}{2}
 \begin{cases}
-sin (\delta) &=  cos(\epsilon) \cdot sin(\beta) + sin(\epsilon) \cdot cos(\beta) \cdot sin(\lambda)\\\\
-cos (\delta) \cdot sin(\alpha) &= cos(\epsilon) \cdot cos(\beta) \cdot sin(\lambda)\ – sin (\epsilon) \cdot sin(\beta)\\\\
+sin (\delta) &=  cos(\epsilon) \cdot sin(\beta) + sin(\epsilon) \cdot cos(\beta) \cdot sin(\lambda)\\\\ \\
+cos (\delta) \cdot sin(\alpha) &= cos(\epsilon) \cdot cos(\beta) \cdot sin(\lambda)\ – sin (\epsilon) \cdot sin(\beta)\\\\ \\
 cos (\delta) \cdot cos(\alpha) &= cos(\beta) \cdot cos(\lambda)
 \end{cases}
 \end{alignat}
