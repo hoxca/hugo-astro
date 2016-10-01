@@ -45,7 +45,7 @@ Le cahier des charges est le suivant:
 * un système de couplage efficace
 * une interface pour le pilotage du moteur
 
-Dans mon cas le moteur choisi est un moteur pas à pas à aimants permanets, bipolaire aliménté en 12 volt de 48 pas par tour et une réduction de 83,33 /1. On a donc une résolution résultante de 4000 pas / tour, ou 8000 demi-pas / tour en sacrifiant un peu de couple.
+Dans mon cas le moteur choisi est un moteur pas à pas à aimants permanets, unipolaire aliménté en 12 volt de 48 pas par tour et une réduction de 83,33 /1. On a donc une résolution résultante de 4000 pas / tour, ou 8000 demi-pas / tour en sacrifiant un peu de couple.
 
 Le fonctionnement en demi-pas du moteur en fonction du sens du courant appliqué aux bobines est le suivant:
 
