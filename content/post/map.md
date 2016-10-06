@@ -68,7 +68,7 @@ Le parfait alignement entre l'axe du moteur et celui du système de mise au poin
 
 La première étape est de régler les butées logicielles pour que le moteur ne tente pas de déplacer le porte oculaire en dehors de bornes acceptables.
 
-La deuxième étape du paramétrage de ce moteur est de d'évaluer une valeur pour le rattrapage de jeu.
+La deuxième étape du paramétrage de ce moteur est d'évaluer une valeur pour le rattrapage de jeu.
 Ce jeu est généralement dû aux engrenages présents dans le système. J'ai fait cette mesure à l'aide d'une étoile artificielle et j'ai pu établir un jeu de 21 pas.
 
 Ces valeurs sont ensuites rentrées dans le logiciel de pilotage du moteur.
