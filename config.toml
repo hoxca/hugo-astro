@@ -1,4 +1,4 @@
-baseurl = "astro.atosc.org"
+baseurl = "http://astro.atosc.org/"
 title = "Stars and Astrophotography"
 languageCode = "en-US"
 theme = "hugo-icarus"
